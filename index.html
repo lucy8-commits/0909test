@@ -7,16 +7,10 @@
       name="description"
       content="생명공학 전공과 품질 관련 교육을 바탕으로 QA/QC 직무를 준비하는 이서원의 포트폴리오입니다."
     />
-    <meta name="theme-color" content="#1a1a1a" />
+    <meta name="theme-color" content="#ffffff" />
     <title>이서원 | QA/QC Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css?v=6" />
-    <script src="./script.js?v=6" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=14" />
+    <script src="./script.js?v=14" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main">본문으로 바로가기</a>
@@ -57,7 +51,8 @@
       <!-- 01. HOME -->
       <section class="hero section-anchor" id="home" data-section="home">
         <div class="hero-grid" aria-hidden="true"></div>
-        <div class="container hero-layout">
+        <div class="container hero-composition">
+        <div class="hero-layout">
           <div class="hero-copy reveal">
             <p class="eyebrow"><span>Lee Seowon</span> · QA/QC candidate</p>
             <h1>
@@ -91,19 +86,29 @@
           </aside>
         </div>
 
-        <div class="container strength-strip reveal" aria-label="핵심 역량">
+        <div class="strength-strip reveal" aria-label="핵심 역량">
           <article>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="7" cy="7" r="3"/><circle cx="17" cy="17" r="3"/><path d="M9.2 9.2l5.6 5.6M17 4v5M14.5 6.5h5M7 15v5M4.5 17.5h5"/></svg>
+            </div>
             <span>01</span>
             <div><h2>생명공학 기반</h2><p>전공을 통해 쌓은 생명과학 기초</p></div>
           </article>
           <article>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 4.6-2.9 8-7 10-4.1-2-7-5.4-7-10V6l7-3z"/><path d="M8.8 12l2.1 2.1 4.5-4.6"/></svg>
+            </div>
             <span>02</span>
             <div><h2>품질관리 준비</h2><p>ISO 9001·GMP·6시그마 학습</p></div>
           </article>
           <article>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6 3h9l3 3v15H6V3z"/><path d="M15 3v4h4M9 11h6M9 15h6M9 19h4"/></svg>
+            </div>
             <span>03</span>
             <div><h2>정확한 기록</h2><p>실험 데이터와 문서 관리 경험</p></div>
           </article>
+        </div>
         </div>
       </section>
 
@@ -154,7 +159,17 @@
           </header>
 
           <div class="experience-bento">
-          <article class="featured-experience reveal">
+          <article class="featured-experience">
+            <figure class="experience-visual">
+              <img
+                src="./assets/qa-lab-photo.jpg"
+                alt="실험실에서 시험관을 확인하며 기록하는 모습"
+                width="1856"
+                height="2048"
+                loading="eager"
+                decoding="async"
+              />
+            </figure>
             <div class="featured-meta">
               <span>2020.04 — 2020.12</span>
               <span>Lab · Data</span>
@@ -207,8 +222,18 @@
           </header>
 
           <div class="activity-list">
-            <article class="activity-card reveal">
-              <div class="activity-index">A</div>
+            <article class="activity-card">
+              <figure class="activity-visual">
+                <img
+                  src="./assets/activity-kscy.jpg"
+                  alt="한국청소년학술대회에서 연구계획을 정리한 보드와 메모"
+                  width="1200"
+                  height="800"
+                  loading="eager"
+                  decoding="async"
+                />
+                <span class="activity-index" aria-hidden="true">A</span>
+              </figure>
               <div class="activity-main">
                 <p class="period">2018.01 — 2020.02</p>
                 <h3>한국청소년학술대회 KSCY</h3>
@@ -221,8 +246,18 @@
               </ul>
             </article>
 
-            <article class="activity-card reveal">
-              <div class="activity-index">B</div>
+            <article class="activity-card">
+              <figure class="activity-visual">
+                <img
+                  src="./assets/activity-takjaewon.jpg"
+                  alt="책을 펼쳐 놓고 함께 공부하며 기록하는 학생들"
+                  width="1200"
+                  height="800"
+                  loading="eager"
+                  decoding="async"
+                />
+                <span class="activity-index" aria-hidden="true">B</span>
+              </figure>
               <div class="activity-main">
                 <p class="period">2023.03 — 2024.11</p>
                 <h3>학술동아리 탁재원</h3>
